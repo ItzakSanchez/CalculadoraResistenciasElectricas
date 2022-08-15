@@ -1,0 +1,10 @@
+body{
+    width: 650px;
+    margin: 0 auto;
+    background-color: gray;
+}
+form{
+    max-width: 300px;
+    flex-direction: column;
+    justify-content: center;
+}

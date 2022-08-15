@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Resistencias</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Calculadora de resistencias electricas</h1>
+            <p>Agrega el valor de las resistencias para calcular la resistencias totales</p>
+            <form action="">
+                <input type="radio" name="tipoResistencia" id="serie" value="serie" checked> 
+                <label for="serie">Serie</label><br>
+                <input type="radio" name="tipoResistencia" id="paralelo" value="paralelo">
+                <label for="paralelo">Paralelo</label><br>
+                
+                <label for="paralelo">Resistencia 1</label>
+                <input type="number" name="valores" id="entrada1">
+                <label for="paralelo">Resistencia 2</label>
+                <input type="number" name="valores" id="entrada2">
+                <label for="paralelo">Resistencia 3</label>
+                <input type="number" name="valores" id="entrada3">
+                <input type="button" id="calcular" value="Calcular">
+                
+            </form>
+            <h2>Resultado = <span id="resultado"></span></h2>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
